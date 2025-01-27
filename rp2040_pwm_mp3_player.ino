@@ -204,7 +204,6 @@ void setup()
       next_song = false;
     }
 
-    set_volume();
     read_sd_fill_mp3_buffer(file);
   }
 }
@@ -307,6 +306,7 @@ void main2()
       next_song = true;
     }
     update_display();
+    set_volume();
   }
 }
 
