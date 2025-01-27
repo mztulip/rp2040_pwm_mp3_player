@@ -22,7 +22,8 @@ GP0 is used as PWM audio output.
 It works with or without DC block and sound is not bad, but it is not loud enought to be comfortable to listen music.
 * RC filter with DC block and external amplifier can be used
 * Simple Class D using PWM presented here. I connected inverter created with NMOS and PMOS transistors(AO3400, AO3407).
-It is driven directly from GP0. To the inverter output, LC filter is connected as presented in simulations. 
+Inverter is driven directly from GP0. LC filter is connected directly to the inverter output, as presented in simulations. 
+![alt text](https://github.com/mztulip/rp2040_pwm_mp3_player/blob/main/filter_sim/class_d_sim.png?raw=true)
 Inverter is supplied from 3.3V from Rpi Pico. Speaker(0.5W) is connected to filter out(it works without DC block). 
 Sound quality is good enought to have fun with player. Output power is huge enough to oversteer 0.5W speaker.
 
