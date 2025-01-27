@@ -1,6 +1,8 @@
 # rp2040_pwm_mp3_player
 Project aim is to create mp3 player using Raspberry pi Pico(RP2040). Music is stored on sd card. Interface is realised with I2C display SSD1306.
 
+![alt text](https://github.com/mztulip/rp2040_pwm_mp3_player/blob/main/hardware_img/main.png?raw=true)
+
 Project uses Arduino enviroment. It was tested and compiled using arduino ide 2.3.4.
 Sdcard is used in SPI mode for reading files, formatted with Fat32.
 Application search for mp3 files in main directory. 
