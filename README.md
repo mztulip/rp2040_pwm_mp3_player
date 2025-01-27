@@ -2,7 +2,7 @@
 Project aim is to create mp3 player using Raspberry pi Pico(RP2040). Music is stored on sd card. Interface is realised with I2C display SSD1306.
 
 Project uses Arduino enviroment. It was tested and compiled using arduino ide 2.3.4.
-Sdcard is used in SPI mode for reading files.
+Sdcard is used in SPI mode for reading files, formatted with Fat32.
 Application search for mp3 files in main directory. 
 Display SSD1306 is connected using I2C interface. It shows volume control, current song index
 with file name. Encoder is used to control volume. Pressing encoder button will go to the next song.
@@ -28,3 +28,4 @@ It works without DC block and sound not bad, but it is not loud enought to be co
 * BackgroundAudio https://github.com/earlephilhower/BackgroundAudio/tree/master
 * encoder library https://github.com/gbr1/rp2040-encoder-library
 * Adafruit SSD1306 https://github.com/adafruit/Adafruit_SSD1306/tree/master
+* SdFat library https://github.com/greiman/SdFat
